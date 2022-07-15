@@ -1,0 +1,7 @@
+Mary,uam,admin
+victor,123,admin
+Janco,ase,user
+Lilitha,1234,admin
+Janco,123,admin
+Elmar,1234,admin
+Test,yolo,user
