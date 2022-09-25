@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Tello_Interface.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Strech" Type="System.Windows.Forms.PictureBoxSizeMode" Scope="User">
+      <Value Profile="(Default)">StretchImage</Value>
+    </Setting>
+    <Setting Name="theone" Type="System.Windows.Forms.PictureBoxSizeMode" Scope="User">
+      <Value Profile="(Default)">StretchImage</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,32 @@
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\bin\Debug\Tello Interface.exe.config
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\bin\Debug\Tello Interface.exe
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\bin\Debug\Tello Interface.pdb
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.AssemblyReference.cache
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.SuggestedBindingRedirects.cache
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmLogin.resources
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmStart.resources
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.Properties.Resources.resources
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.GenerateResource.cache
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.CoreCompileInputs.cache
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\obj\Debug\Tello Interface.exe
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\obj\Debug\Tello Interface.pdb
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\bin\Debug\Database.mdf
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\bin\Debug\Database_log.ldf
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmHome.resources
+C:\Users\dayzd\OneDrive - belgiumcampus.ac.za\Belgium Campus Folder\Visual Studio Projects\Tello Interface\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmRegister.resources
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\Database.mdf
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\Database_log.ldf
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\Tello Interface.exe.config
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\Tello Interface.exe
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\Tello Interface.pdb
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.AssemblyReference.cache
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.SuggestedBindingRedirects.cache
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmHome.resources
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmLogin.resources
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmRegister.resources
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmStart.resources
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.Properties.Resources.resources
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.GenerateResource.cache
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.CoreCompileInputs.cache
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.exe
+C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.pdb
