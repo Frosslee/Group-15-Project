@@ -8,5 +8,8 @@
     <Setting Name="theone" Type="System.Windows.Forms.PictureBoxSizeMode" Scope="User">
       <Value Profile="(Default)">StretchImage</Value>
     </Setting>
+    <Setting Name="sizes" Type="System.Windows.Forms.PictureBoxSizeMode" Scope="User">
+      <Value Profile="(Default)">AutoSize</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

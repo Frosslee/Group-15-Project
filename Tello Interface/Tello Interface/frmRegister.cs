@@ -47,13 +47,13 @@ namespace Tello_Interface
                         cmd = new SqlCommand("insert into LoginTable(username, password, level) values(@username,@password,@level)", cn);
                         cmd.Parameters.AddWithValue("@username", tbxUsername.Text);
                         cmd.Parameters.AddWithValue("@password", tbxPassword.Text);
-                        if (cbUserType.Text == "User")
+                        if (cbUserType.Text == "Admin")
                         {
-                         cmd.Parameters.AddWithValue("level", 0);
+                         cmd.Parameters.AddWithValue("level", 1);
                         }
                         else
                         {
-                         cmd.Parameters.AddWithValue("level", 1);
+                         cmd.Parameters.AddWithValue("level", 0);
                         }
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Your Account is created . Please login now.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -90,6 +90,11 @@ namespace Tello_Interface
         void t_Tick(object sender, EventArgs e)
         {
             lblDate.Text = DateTime.Now.ToString();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

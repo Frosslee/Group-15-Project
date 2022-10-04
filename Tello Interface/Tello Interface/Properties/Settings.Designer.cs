@@ -46,5 +46,17 @@ namespace Tello_Interface.Properties {
                 this["theone"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AutoSize")]
+        public global::System.Windows.Forms.PictureBoxSizeMode sizes {
+            get {
+                return ((global::System.Windows.Forms.PictureBoxSizeMode)(this["sizes"]));
+            }
+            set {
+                this["sizes"] = value;
+            }
+        }
     }
 }
