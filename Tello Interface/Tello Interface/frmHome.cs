@@ -108,14 +108,13 @@ namespace Tello_Interface
                 lblconnctd.Show();
                 rtbPython.AppendText("\r\n" + "Connected to tello.");
                 StreamWriter sw = new StreamWriter(pipeClient);
-                StreamReader sr = new StreamReader(pipeClient);              
-                        sw.AutoFlush = true;
-                        
-                        //  Console.WriteLine("Received: " + temp);
-                        string temp = sr.ReadLine();
-                        rtbPython.AppendText("\r\n" + temp);
-                        // Console.ReadLine()
-                        sw.WriteLine("takeoff");
+                StreamReader sr = new StreamReader(pipeClient);  
+                    sw.AutoFlush = true;
+                    //  Console.WriteLine("Received: " + temp);
+                    string temp = sr.ReadLine();
+                    rtbPython.AppendText("\r\n" + temp);
+                    // Console.ReadLine()
+                    sw.WriteLine("takeoff");
 
             }
 
