@@ -32,9 +32,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblDate = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -44,7 +44,7 @@
             // 
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button1.ForeColor = System.Drawing.Color.MediumTurquoise;
+            this.button1.ForeColor = System.Drawing.Color.Red;
             this.button1.Location = new System.Drawing.Point(31, 193);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(113, 34);
@@ -73,6 +73,17 @@
             this.lblDate.TabIndex = 2;
             this.lblDate.Text = "Date";
             // 
+            // button2
+            // 
+            this.button2.ForeColor = System.Drawing.Color.Red;
+            this.button2.Location = new System.Drawing.Point(3, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(19, 24);
+            this.button2.TabIndex = 14;
+            this.button2.Text = "X";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -86,7 +97,7 @@
             // 
             // button3
             // 
-            this.button3.ForeColor = System.Drawing.Color.MediumTurquoise;
+            this.button3.ForeColor = System.Drawing.Color.MidnightBlue;
             this.button3.Location = new System.Drawing.Point(217, 193);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(113, 34);
@@ -94,17 +105,6 @@
             this.button3.Text = "Register";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.ForeColor = System.Drawing.Color.Red;
-            this.button2.Location = new System.Drawing.Point(3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(19, 24);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "X";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // pictureBox1
             // 

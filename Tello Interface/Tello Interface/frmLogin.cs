@@ -87,5 +87,14 @@ namespace Tello_Interface
         {
             Application.Exit();
         }
+
+      
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmRegister register = new frmRegister();
+            register.Show();
+            this.Hide();
+        }
     }
 }
