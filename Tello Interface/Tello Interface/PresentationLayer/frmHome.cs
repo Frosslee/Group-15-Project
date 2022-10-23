@@ -8,12 +8,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AForge;
+using AForge.Video;
+using AForge.Video.DirectShow;
 
 
 namespace Tello_Interface
 {
+    //video feed 
     public partial class frmHome : Form
     {
+        FilterInfoCollection filterInfoCollection;
+        VideoCapturingDevice videoCapturingDevice;
+
         private SqlCommand cmd;
         private SqlDataReader dr;
         public static string usrname;
@@ -66,6 +73,20 @@ namespace Tello_Interface
         private void frmHome_Load(object sender, EventArgs e)
         {
             lblUser.Text = usrname;
+
+
+
+            filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
+            foreach (FilterInfo filterInfo in filterInfoCollection)
+            {
+                
+            }
+
+
+
+
+
+
         }
 
         private void StartTimer()
