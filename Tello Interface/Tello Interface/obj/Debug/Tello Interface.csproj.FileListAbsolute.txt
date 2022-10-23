@@ -46,3 +46,14 @@ A:\Github\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Inter
 A:\Github\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.CoreCompileInputs.cache
 A:\Github\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.exe
 A:\Github\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.pdb
+A:\Github\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\AForge.dll
+A:\Github\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\AForge.Imaging.dll
+A:\Github\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\AForge.Math.dll
+A:\Github\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\AForge.Video.DirectShow.dll
+A:\Github\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\AForge.Video.dll
+A:\Github\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\AForge.xml
+A:\Github\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\AForge.Imaging.xml
+A:\Github\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\AForge.Math.xml
+A:\Github\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\AForge.Video.xml
+A:\Github\Group-15-Project\Tello Interface\Tello Interface\bin\Debug\AForge.Video.DirectShow.xml
+A:\Github\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.CopyComplete

@@ -15,11 +15,11 @@ using AForge.Video.DirectShow;
 
 namespace Tello_Interface
 {
-    //video feed 
+  
     public partial class frmHome : Form
     {
         FilterInfoCollection filterInfoCollection;
-        VideoCapturingDevice videoCapturingDevice;
+        VideoCaptureDevice videoCaptureDevice;
 
         private SqlCommand cmd;
         private SqlDataReader dr;
@@ -79,7 +79,9 @@ namespace Tello_Interface
             filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
             foreach (FilterInfo filterInfo in filterInfoCollection)
             {
-                
+                cbCamerabox.Items.Add(filterInfo.Name);
+                cbCamerabox.SelectedIndex = 0;
+                videoCaptureDevice = new VideoCaptureDevice();
             }
 
 
@@ -102,9 +104,30 @@ namespace Tello_Interface
             lblDate.Text = DateTime.Now.ToString();
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
+    
+
+        private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            videoCaptureDevice = new VideoCaptureDevice(filterInfoCollection[cbCamerabox.SelectedIndex].MonikerString);
+            videoCaptureDevice.NewFrame += VideoCaptureDevice_NewFrame;
+        }
+
+        private void VideoCaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
+        {
+            imgpCamFeed.Image = (Bitmap)eventArgs.Frame.Clone();
+        }
+
+        private void frmHome_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (videoCaptureDevice.IsRunning == true)
+            {
+                videoCaptureDevice.Stop ();
+            }
+        }
+
     }
 }
