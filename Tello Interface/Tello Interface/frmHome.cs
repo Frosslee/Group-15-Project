@@ -11,11 +11,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using AForge;
+using AForge.Video;
+using AForge.Video.DirectShow;
 
 namespace Tello_Interface
 {
     public partial class frmHome : Form
     {
+        FilterInfoCollection filterInfoCollection;
+        VideoCaptureDevice videoCaptureDevice;
         private SqlCommand cmd;
         private SqlDataReader dr;
         public static string usrname;
@@ -47,11 +52,6 @@ namespace Tello_Interface
                 }
                 
             }
-
-            
-
-
-             
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -63,9 +63,6 @@ namespace Tello_Interface
         {
            
         }
-
-
-
         private void frmHome_Load(object sender, EventArgs e)
         {
             lblcnt.Hide();
@@ -74,6 +71,16 @@ namespace Tello_Interface
             lblUser.Text = usrname;
             btnEnd.Hide();
             rtbPython.Hide();
+            
+            
+            // video feed
+            filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
+            foreach (FilterInfo filterInfo in filterInfoCollection)
+            {
+                cbCamerabox.Items.Add(filterInfo.Name);
+                cbCamerabox.SelectedIndex = 0;
+                videoCaptureDevice = new VideoCaptureDevice();
+            }
         }
 
         private void StartTimer()
@@ -137,10 +144,7 @@ namespace Tello_Interface
         }
 
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void btnEnd_Click(object sender, EventArgs e)
         {
@@ -149,6 +153,16 @@ namespace Tello_Interface
             home.Show();
             this.Close();
             
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void imgpCamFeed_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

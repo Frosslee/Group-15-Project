@@ -46,3 +46,34 @@ A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello I
 A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.CoreCompileInputs.cache
 A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.exe
 A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.pdb
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\Database.mdf
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\Database_log.ldf
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\Tello Interface.exe.config
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\Tello Interface.exe
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\Tello Interface.pdb
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Controls.dll
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.dll
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Genetic.dll
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Imaging.dll
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Math.dll
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Video.DirectShow.dll
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Video.dll
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.xml
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Controls.xml
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Genetic.xml
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Imaging.xml
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Math.xml
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Video.xml
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\bin\Debug\AForge.Video.DirectShow.xml
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.AssemblyReference.cache
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.SuggestedBindingRedirects.cache
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmHome.resources
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmLogin.resources
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmRegister.resources
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmStart.resources
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.Properties.Resources.resources
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.GenerateResource.cache
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.CoreCompileInputs.cache
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.CopyComplete
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.exe
+A:\Github\Group-15-Project_PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.pdb
