@@ -84,11 +84,6 @@ namespace Tello_Interface
                 videoCaptureDevice = new VideoCaptureDevice();
             }
 
-
-
-
-
-
         }
 
         private void StartTimer()
