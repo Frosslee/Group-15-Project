@@ -30,3 +30,19 @@ C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj
 C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.CoreCompileInputs.cache
 C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.exe
 C:\Users\dayzd\source\repos\Group-15-Project\Tello Interface\Tello Interface\obj\Debug\Tello Interface.pdb
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\bin\Debug\Database.mdf
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\bin\Debug\Database_log.ldf
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\bin\Debug\Tello Interface.exe.config
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\bin\Debug\Tello Interface.exe
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\bin\Debug\Tello Interface.pdb
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.AssemblyReference.cache
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.SuggestedBindingRedirects.cache
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmHome.resources
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmLogin.resources
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmRegister.resources
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.frmStart.resources
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello_Interface.Properties.Resources.resources
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.GenerateResource.cache
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.csproj.CoreCompileInputs.cache
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.exe
+A:\Github\Group-15-Project PRJ\Tello Interface\Tello Interface\obj\Debug\Tello Interface.pdb
