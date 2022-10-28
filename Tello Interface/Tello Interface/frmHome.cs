@@ -29,6 +29,7 @@ namespace Tello_Interface
 
         public frmHome()
         {
+            StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
             StartTimer();
             cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True");

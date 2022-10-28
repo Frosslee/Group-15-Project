@@ -20,6 +20,7 @@ namespace Tello_Interface
 
         public frmRegister()
         {
+            StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
         }
 

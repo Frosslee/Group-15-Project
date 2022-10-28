@@ -68,16 +68,16 @@
             this.panel1.Controls.Add(this.lblUser);
             this.panel1.Controls.Add(this.lblDate);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1068, 36);
+            this.panel1.Size = new System.Drawing.Size(1653, 36);
             this.panel1.TabIndex = 16;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // lbldisco
             // 
             this.lbldisco.AutoSize = true;
-            this.lbldisco.Location = new System.Drawing.Point(457, 11);
+            this.lbldisco.Location = new System.Drawing.Point(978, 13);
             this.lbldisco.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbldisco.Name = "lbldisco";
             this.lbldisco.Size = new System.Drawing.Size(90, 16);
@@ -87,7 +87,7 @@
             // lblconnctd
             // 
             this.lblconnctd.AutoSize = true;
-            this.lblconnctd.Location = new System.Drawing.Point(457, 11);
+            this.lblconnctd.Location = new System.Drawing.Point(978, 13);
             this.lblconnctd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblconnctd.Name = "lblconnctd";
             this.lblconnctd.Size = new System.Drawing.Size(72, 16);
@@ -108,7 +108,7 @@
             // 
             this.button2.ForeColor = System.Drawing.Color.Red;
             this.button2.Location = new System.Drawing.Point(4, 2);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(25, 30);
             this.button2.TabIndex = 18;
@@ -141,7 +141,7 @@
             // lblDate
             // 
             this.lblDate.AutoSize = true;
-            this.lblDate.Location = new System.Drawing.Point(907, 5);
+            this.lblDate.Location = new System.Drawing.Point(1544, 5);
             this.lblDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(36, 16);
@@ -152,7 +152,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("OCR A Extended", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.DarkGreen;
+            this.label3.ForeColor = System.Drawing.Color.Lime;
             this.label3.Location = new System.Drawing.Point(335, 39);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
@@ -163,7 +163,7 @@
             // btnFly
             // 
             this.btnFly.Location = new System.Drawing.Point(780, 43);
-            this.btnFly.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnFly.Margin = new System.Windows.Forms.Padding(4);
             this.btnFly.Name = "btnFly";
             this.btnFly.Size = new System.Drawing.Size(100, 28);
             this.btnFly.TabIndex = 18;
@@ -174,7 +174,7 @@
             // btnEnd
             // 
             this.btnEnd.Location = new System.Drawing.Point(911, 43);
-            this.btnEnd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEnd.Margin = new System.Windows.Forms.Padding(4);
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(100, 28);
             this.btnEnd.TabIndex = 20;
@@ -184,8 +184,8 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(887, 273);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(780, 108);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(35, 28);
             this.button1.TabIndex = 21;
@@ -193,8 +193,8 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(844, 309);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(737, 144);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(35, 28);
             this.button3.TabIndex = 22;
@@ -202,8 +202,8 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(887, 309);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Location = new System.Drawing.Point(780, 144);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(35, 28);
             this.button4.TabIndex = 23;
@@ -211,8 +211,8 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(929, 309);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Location = new System.Drawing.Point(822, 144);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(35, 28);
             this.button5.TabIndex = 24;
@@ -220,8 +220,8 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(845, 357);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Location = new System.Drawing.Point(737, 198);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(100, 28);
             this.button6.TabIndex = 25;
@@ -230,8 +230,8 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(845, 393);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button7.Location = new System.Drawing.Point(737, 234);
+            this.button7.Margin = new System.Windows.Forms.Padding(4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(100, 28);
             this.button7.TabIndex = 26;
@@ -240,8 +240,8 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(845, 428);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button8.Location = new System.Drawing.Point(737, 269);
+            this.button8.Margin = new System.Windows.Forms.Padding(4);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(100, 28);
             this.button8.TabIndex = 27;
@@ -250,10 +250,10 @@
             // 
             // rtbPython
             // 
-            this.rtbPython.Location = new System.Drawing.Point(257, 145);
+            this.rtbPython.Location = new System.Drawing.Point(13, 85);
             this.rtbPython.Margin = new System.Windows.Forms.Padding(4);
             this.rtbPython.Name = "rtbPython";
-            this.rtbPython.Size = new System.Drawing.Size(464, 296);
+            this.rtbPython.Size = new System.Drawing.Size(708, 481);
             this.rtbPython.TabIndex = 19;
             this.rtbPython.Text = "";
             this.rtbPython.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
@@ -270,9 +270,9 @@
             // 
             // imgpCamFeed
             // 
-            this.imgpCamFeed.Location = new System.Drawing.Point(1054, 124);
+            this.imgpCamFeed.Location = new System.Drawing.Point(911, 124);
             this.imgpCamFeed.Name = "imgpCamFeed";
-            this.imgpCamFeed.Size = new System.Drawing.Size(486, 378);
+            this.imgpCamFeed.Size = new System.Drawing.Size(706, 378);
             this.imgpCamFeed.TabIndex = 34;
             this.imgpCamFeed.TabStop = false;
             this.imgpCamFeed.Click += new System.EventHandler(this.imgpCamFeed_Click);
@@ -280,6 +280,8 @@
             // lblCamera
             // 
             this.lblCamera.AutoSize = true;
+            this.lblCamera.BackColor = System.Drawing.Color.Transparent;
+            this.lblCamera.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.lblCamera.Location = new System.Drawing.Point(1073, 85);
             this.lblCamera.Name = "lblCamera";
             this.lblCamera.Size = new System.Drawing.Size(55, 16);
@@ -298,7 +300,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1649, 704);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.imgpCamFeed);
@@ -316,7 +318,8 @@
             this.Controls.Add(this.btnFly);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmHome";
             this.Text = "frmHome";
             this.Load += new System.EventHandler(this.frmHome_Load);

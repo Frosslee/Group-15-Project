@@ -13,6 +13,7 @@ namespace Tello_Interface
 {
     public partial class frmLogin : Form
     {
+
         private SqlConnection cn;
         private SqlCommand cmd;
         private SqlDataReader dr;
@@ -20,6 +21,7 @@ namespace Tello_Interface
 
         public frmLogin()
         {
+            StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
             StartTimer();
         }
@@ -86,6 +88,13 @@ namespace Tello_Interface
         private void button2_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void lnkRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmRegister reg = new frmRegister();
+            reg.Show();
+            this.Close();
         }
     }
 }

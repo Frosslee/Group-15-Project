@@ -14,6 +14,7 @@ namespace Tello_Interface
     {
         public frmStart()
         {
+            StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
             StartTimer();
 
