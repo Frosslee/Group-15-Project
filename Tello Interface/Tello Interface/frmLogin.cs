@@ -26,7 +26,13 @@ namespace Tello_Interface
             StartTimer();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+            cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True");
+            cn.Open();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             if (tbxPassword.Text != string.Empty || tbxUsername.Text != string.Empty)
             {
@@ -55,12 +61,7 @@ namespace Tello_Interface
             }
         }
 
-        private void frmLogin_Load(object sender, EventArgs e)
-        {
-            cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True");
-            cn.Open();
-        }
-
+    
         private void button2_Click(object sender, EventArgs e)
         {
             frmStart st = new frmStart();
@@ -85,7 +86,7 @@ namespace Tello_Interface
             lblDate.Text = DateTime.Now.ToString();
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
+        private void btnExit_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
         }
@@ -96,5 +97,7 @@ namespace Tello_Interface
             reg.Show();
             this.Close();
         }
+
+       
     }
 }

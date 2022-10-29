@@ -41,7 +41,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.lblDate = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -59,9 +59,9 @@
             this.groupBox1.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Lime;
             this.groupBox1.Location = new System.Drawing.Point(300, 130);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(455, 278);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
@@ -82,7 +82,7 @@
             // tbxConfirmPassword
             // 
             this.tbxConfirmPassword.Location = new System.Drawing.Point(227, 155);
-            this.tbxConfirmPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbxConfirmPassword.Margin = new System.Windows.Forms.Padding(4);
             this.tbxConfirmPassword.Name = "tbxConfirmPassword";
             this.tbxConfirmPassword.Size = new System.Drawing.Size(148, 31);
             this.tbxConfirmPassword.TabIndex = 14;
@@ -94,7 +94,7 @@
             "User",
             "Admin"});
             this.cbUserType.Location = new System.Drawing.Point(227, 213);
-            this.cbUserType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbUserType.Margin = new System.Windows.Forms.Padding(4);
             this.cbUserType.Name = "cbUserType";
             this.cbUserType.Size = new System.Drawing.Size(148, 32);
             this.cbUserType.TabIndex = 13;
@@ -138,7 +138,7 @@
             // tbxPassword
             // 
             this.tbxPassword.Location = new System.Drawing.Point(227, 105);
-            this.tbxPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbxPassword.Margin = new System.Windows.Forms.Padding(4);
             this.tbxPassword.Name = "tbxPassword";
             this.tbxPassword.Size = new System.Drawing.Size(148, 31);
             this.tbxPassword.TabIndex = 8;
@@ -146,7 +146,7 @@
             // tbxUsername
             // 
             this.tbxUsername.Location = new System.Drawing.Point(227, 47);
-            this.tbxUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbxUsername.Margin = new System.Windows.Forms.Padding(4);
             this.tbxUsername.Name = "tbxUsername";
             this.tbxUsername.Size = new System.Drawing.Size(148, 31);
             this.tbxUsername.TabIndex = 7;
@@ -157,7 +157,7 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.lblDate);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1068, 36);
             this.panel1.TabIndex = 10;
@@ -166,7 +166,7 @@
             // 
             this.button2.ForeColor = System.Drawing.Color.Red;
             this.button2.Location = new System.Drawing.Point(4, 4);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(25, 30);
             this.button2.TabIndex = 15;
@@ -196,17 +196,17 @@
             this.label3.TabIndex = 11;
             this.label3.Text = "Tello Command Center";
             // 
-            // button1
+            // btnRegister
             // 
-            this.button1.ForeColor = System.Drawing.Color.Navy;
-            this.button1.Location = new System.Drawing.Point(451, 416);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(151, 42);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnRegister.ForeColor = System.Drawing.Color.Navy;
+            this.btnRegister.Location = new System.Drawing.Point(451, 416);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(151, 42);
+            this.btnRegister.TabIndex = 12;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // frmRegister
             // 
@@ -214,12 +214,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmRegister";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frmRegister_Load);
@@ -244,7 +244,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cbUserType;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox tbxConfirmPassword;
         private System.Windows.Forms.Button button2;

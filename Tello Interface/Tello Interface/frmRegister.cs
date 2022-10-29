@@ -16,7 +16,15 @@ namespace Tello_Interface
         public SqlCommand cmd;
         private SqlDataReader dr;
         private SqlConnection cn;
+        private DataTable dt;
         private Timer t;
+
+
+        private void frmRegister_Load(object sender, EventArgs e)
+        {
+            cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True");
+            cn.Open();
+        }
 
         public frmRegister()
         {
@@ -29,7 +37,7 @@ namespace Tello_Interface
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnRegister_Click(object sender, EventArgs e)
         {
             if (tbxConfirmPassword.Text != string.Empty || tbxPassword.Text != string.Empty || tbxUsername.Text != string.Empty)
             {
@@ -44,28 +52,15 @@ namespace Tello_Interface
                     }
                     else
                     {
-                        dr.Close();
-                        cmd = new SqlCommand("insert into LoginTable(username, password, level) values(@username,@password,@level)", cn);
-                        cmd.Parameters.AddWithValue("@username", tbxUsername.Text);
-                        cmd.Parameters.AddWithValue("@password", tbxPassword.Text);
-                        if (cbUserType.Text == "Admin")
-                        {
-                         cmd.Parameters.AddWithValue("level", 1);
-                        }
-                        else
-                        {
-                         cmd.Parameters.AddWithValue("level", 0);
-                        }
-                        cmd.ExecuteNonQuery();
-                        MessageBox.Show("Your Account is created . Please login now.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        frmLogin login = new frmLogin();
-                        login.Show();
-                        this.Close();
+                        Register();
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Please enter both password same ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Please enter the same password ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    tbxPassword.Clear(); 
+                    tbxConfirmPassword.Clear();
+                   
                 }
             }
             else
@@ -74,11 +69,7 @@ namespace Tello_Interface
             }
         }
 
-        private void frmRegister_Load(object sender, EventArgs e)
-        {
-            cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True");
-            cn.Open();
-        }
+      
 
         private void StartTimer()
         {
@@ -96,6 +87,30 @@ namespace Tello_Interface
         private void button2_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+       // Functions
+        private void Register()
+        {
+            dr.Close();
+            cmd = new SqlCommand("insert into LoginTable(username, password, level) values(@username,@password,@level)", cn);
+            cmd.Parameters.AddWithValue("@username", tbxUsername.Text);
+            cmd.Parameters.AddWithValue("@password", tbxPassword.Text);
+            if (cbUserType.Text == "Admin")
+            {
+                cmd.Parameters.AddWithValue("level", 1);
+            }
+            else
+            {
+                cmd.Parameters.AddWithValue("level", 0);
+            }
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Your Account is created . Please login now.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            frmLogin login = new frmLogin();
+            tbxPassword.Clear();
+            tbxConfirmPassword.Clear();
+            login.Show();
+            this.Close();
         }
     }
 }
