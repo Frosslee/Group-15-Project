@@ -16,7 +16,7 @@ namespace Tello_Interface
         public SqlCommand cmd;
         private SqlDataReader dr;
         private SqlConnection cn;
-        private DataTable dt;
+     //   private DataTable dt;
         private Timer t;
 
 

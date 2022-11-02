@@ -25,7 +25,7 @@ namespace Tello_Interface
             Application.Run(new frmStart());
 
         }
-
+        /*
        public class Tello
          {
              private int vsPort = 11111;
@@ -315,4 +315,7 @@ namespace Tello_Interface
 
      }
  }
+*/
+    }
+    }
         

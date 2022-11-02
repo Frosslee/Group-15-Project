@@ -172,5 +172,10 @@ namespace Tello_Interface
             videoCaptureDevice.NewFrame += VideoCaptureDevice_NewFrame;
             videoCaptureDevice.Start();
         }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            videoCaptureDevice.Stop();
+        }
     }
 }

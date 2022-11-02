@@ -53,6 +53,7 @@
             this.imgpCamFeed = new System.Windows.Forms.PictureBox();
             this.lblCamera = new System.Windows.Forms.Label();
             this.cbCamerabox = new System.Windows.Forms.ComboBox();
+            this.btnStop = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgpCamFeed)).BeginInit();
             this.SuspendLayout();
@@ -162,7 +163,7 @@
             // 
             // btnFly
             // 
-            this.btnFly.Location = new System.Drawing.Point(780, 43);
+            this.btnFly.Location = new System.Drawing.Point(173, 85);
             this.btnFly.Margin = new System.Windows.Forms.Padding(4);
             this.btnFly.Name = "btnFly";
             this.btnFly.Size = new System.Drawing.Size(100, 28);
@@ -173,7 +174,7 @@
             // 
             // btnEnd
             // 
-            this.btnEnd.Location = new System.Drawing.Point(911, 43);
+            this.btnEnd.Location = new System.Drawing.Point(325, 85);
             this.btnEnd.Margin = new System.Windows.Forms.Padding(4);
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(100, 28);
@@ -184,7 +185,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(780, 108);
+            this.button1.Location = new System.Drawing.Point(1520, 535);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(35, 28);
@@ -193,7 +194,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(737, 144);
+            this.button3.Location = new System.Drawing.Point(1477, 571);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(35, 28);
@@ -202,7 +203,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(780, 144);
+            this.button4.Location = new System.Drawing.Point(1520, 571);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(35, 28);
@@ -211,7 +212,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(822, 144);
+            this.button5.Location = new System.Drawing.Point(1562, 571);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(35, 28);
@@ -220,7 +221,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(737, 198);
+            this.button6.Location = new System.Drawing.Point(33, 85);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(100, 28);
@@ -230,7 +231,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(737, 234);
+            this.button7.Location = new System.Drawing.Point(482, 85);
             this.button7.Margin = new System.Windows.Forms.Padding(4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(100, 28);
@@ -240,7 +241,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(737, 269);
+            this.button8.Location = new System.Drawing.Point(629, 85);
             this.button8.Margin = new System.Windows.Forms.Padding(4);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(100, 28);
@@ -250,7 +251,7 @@
             // 
             // rtbPython
             // 
-            this.rtbPython.Location = new System.Drawing.Point(13, 85);
+            this.rtbPython.Location = new System.Drawing.Point(21, 150);
             this.rtbPython.Margin = new System.Windows.Forms.Padding(4);
             this.rtbPython.Name = "rtbPython";
             this.rtbPython.Size = new System.Drawing.Size(708, 481);
@@ -296,12 +297,24 @@
             this.cbCamerabox.Size = new System.Drawing.Size(321, 24);
             this.cbCamerabox.TabIndex = 32;
             // 
+            // btnStop
+            // 
+            this.btnStop.Location = new System.Drawing.Point(1227, 558);
+            this.btnStop.Margin = new System.Windows.Forms.Padding(4);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(100, 28);
+            this.btnStop.TabIndex = 36;
+            this.btnStop.Text = "Stop";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1649, 704);
+            this.ClientSize = new System.Drawing.Size(1649, 771);
+            this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.imgpCamFeed);
             this.Controls.Add(this.lblCamera);
@@ -356,5 +369,6 @@
         private System.Windows.Forms.PictureBox imgpCamFeed;
         private System.Windows.Forms.Label lblCamera;
         private System.Windows.Forms.ComboBox cbCamerabox;
+        private System.Windows.Forms.Button btnStop;
     }
 }
