@@ -161,9 +161,16 @@ namespace Tello_Interface
 
         }
 
-        private void imgpCamFeed_Click(object sender, EventArgs e)
+        private void VideoCaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
+            imgpCamFeed.Image = (Bitmap)eventArgs.Frame.Clone();  
+        }
 
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            videoCaptureDevice = new VideoCaptureDevice(filterInfoCollection[cbCamerabox.SelectedIndex].MonikerString);
+            videoCaptureDevice.NewFrame += VideoCaptureDevice_NewFrame;
+            videoCaptureDevice.Start();
         }
     }
 }

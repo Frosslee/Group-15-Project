@@ -267,6 +267,7 @@
             this.btnStart.TabIndex = 35;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // imgpCamFeed
             // 
@@ -275,7 +276,6 @@
             this.imgpCamFeed.Size = new System.Drawing.Size(706, 378);
             this.imgpCamFeed.TabIndex = 34;
             this.imgpCamFeed.TabStop = false;
-            this.imgpCamFeed.Click += new System.EventHandler(this.imgpCamFeed_Click);
             // 
             // lblCamera
             // 

@@ -26,7 +26,7 @@ namespace Tello_Interface
 
         }
 
-        /* public class Tello
+       public class Tello
          {
              private int vsPort = 11111;
              private bool streaming = false;
@@ -315,8 +315,4 @@ namespace Tello_Interface
 
      }
  }
-
-         */
-
-    }
-}
+        
