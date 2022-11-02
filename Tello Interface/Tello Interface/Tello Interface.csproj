@@ -94,42 +94,42 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Db.xsd</DependentUpon>
     </Compile>
-    <Compile Include="frmHome.cs">
+    <Compile Include="Presentation layer\frmHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHome.Designer.cs">
+    <Compile Include="Presentation layer\frmHome.Designer.cs">
       <DependentUpon>frmHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRegister.cs">
+    <Compile Include="Presentation layer\frmRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRegister.Designer.cs">
+    <Compile Include="Presentation layer\frmRegister.Designer.cs">
       <DependentUpon>frmRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmStart.cs">
+    <Compile Include="Presentation layer\frmStart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmStart.Designer.cs">
+    <Compile Include="Presentation layer\frmStart.Designer.cs">
       <DependentUpon>frmStart.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="Presentation layer\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
+    <Compile Include="Presentation layer\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmHome.resx">
+    <EmbeddedResource Include="Presentation layer\frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
+    <EmbeddedResource Include="Presentation layer\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRegister.resx">
+    <EmbeddedResource Include="Presentation layer\frmRegister.resx">
       <DependentUpon>frmRegister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmStart.resx">
+    <EmbeddedResource Include="Presentation layer\frmStart.resx">
       <DependentUpon>frmStart.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -203,6 +203,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database.mdf</DependentUpon>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Business layer\" />
+    <Folder Include="Data access layer\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
